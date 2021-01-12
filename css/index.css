@@ -1,0 +1,17 @@
+body {
+    background-color: #308bd0;
+    color: white;
+}
+
+h1 {
+    color: rgba(0, 255, 0, 0.5);
+}
+
+#greetings {
+    color: red;
+}
+
+.box{
+    font-size: 34px;
+}
+
