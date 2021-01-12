@@ -22,3 +22,17 @@ const apellidos = ["Nieva", "Cervantes", "Lopez"]
 // array.splice([posición de inicio], [cuántos elementos hacia adelante quieres borrar])
 apellidos.splice(0,1)
 console.log(apellidos)
+
+
+// Que los paises digan "Mexico es el mejor pais", "Colombia es el mejor pais", "Peru es el mejor pais."
+let paises = ["Mexico", "Colombia", "Peru"]
+let paisesCopy = []
+
+paises.forEach((elemento, index) => {
+    const pais = `${elemento} es el mejor país`
+
+    paisesCopy.push(pais)
+    
+})
+
+console.log(paisesCopy)
